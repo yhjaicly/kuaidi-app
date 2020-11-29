@@ -1,0 +1,142 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "快递"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆注册"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		},
+		{
+			"path": "pages/fgsgl/fgsgl",
+			"style": {
+				"navigationBarTitleText": "分公司管理"
+			}
+		},
+		{
+			"path": "pages/fzgl/fzgl",
+			"style": {
+				"navigationBarTitleText": "分站管理"
+			}
+		},
+		{
+			"path": "pages/kdygl/kdygl",
+			"style": {
+				"navigationBarTitleText": "快递员管理"
+			}
+		},
+		{
+			"path": "pages/ljgl/ljgl",
+			"style": {
+				"navigationBarTitleText": "揽件管理"
+			}
+		},
+		{
+			"path": "pages/fhgl/fhgl",
+			"style": {
+				"navigationBarTitleText": "发货管理"
+			}
+		},
+		{
+			"path": "pages/tjgn/tjgn",
+			"style": {
+				"navigationBarTitleText": "统计功能"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/zc/zc",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/zfym/zfym",
+			"style": {
+				"navigationBarTitleText": "支付页面",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/xdcg/xdcg",
+			"style": {
+				"navigationBarTitleText": "下单成功",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/fgsgl/fgsgl",
+				"iconPath": "home",
+				"selectedIconPath": "home-fill",
+				"text": "分公司"
+				
+
+			},
+			{
+				"pagePath": "pages/fzgl/fzgl",
+				"iconPath": "photo",
+				"selectedIconPath": "photo-fill",
+				"text": "分站"
+				
+
+			},
+			{
+				"pagePath": "pages/ljgl/ljgl",
+				"iconPath": "https://cdn.uviewui.com/uview/common/min_button.png",
+				"selectedIconPath": "https://cdn.uviewui.com/uview/common/min_button_select.png",
+				"text": "揽件"
+				
+				
+			},
+			{
+				"pagePath": "pages/fhgl/fhgl",
+				"iconPath": "play-right",
+				"selectedIconPath": "play-right-fill",
+				"text": "发货"
+				
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "account",
+				"selectedIconPath": "account-fill",
+				"text": "我的"
+			}
+		]
+	}
+}
